@@ -2473,12 +2473,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(../img/slider-home.jpg) center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .banner-area .overlay-bg {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 767px) {
