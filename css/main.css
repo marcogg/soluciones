@@ -2372,7 +2372,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .section-gap {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .alert-msg {
@@ -2497,7 +2497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   line-height: 1em;
   margin-top: 10px;
-  color: #f9d700;
+  color: #A3B139;
 }
 
 @media (max-width: 991.98px) {
@@ -2538,7 +2538,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content .primary-btn {
-  background-color: #f9d700;
+  background-color: #b9e249;
   color: #222;
   font-weight: 600;
   font-size: 14px;
@@ -2556,7 +2556,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .header-right {
-  background-color: #f9d700;
+  background-color: #b9e249;
   border: 1px solid #4b5263;
   padding: 50px;
   text-align: center;
@@ -2741,7 +2741,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .services-area .single-service:hover {
-  background-color: #000000;
+  background-color: #013552;
   pointer: cursor;
 }
 
@@ -2807,12 +2807,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .reviews-area .single-review:hover {
-  background-color: #000;
+  background-color: #013552;
   cursor: pointer;
 }
 
 .reviews-area .single-review:hover h4 {
   color: #f9d700;
+}
+.parallax{
+  background-image: url(../img/familia2.jpg);
+  background-origin: center right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.review-title{
+  background-color: white;
+  padding: 3%;
 }
 
 /*-------- End review Area -------------*/
@@ -3913,7 +3924,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* =================================== */
 /*-------- start footer Area -------------*/
 .footer-area {
-  background-color: #000000;
+  background-color: #013552;
 }
 
 .footer-area h6 {
