@@ -2091,7 +2091,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   transition: all 0.5s;
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
-  background-color: #000;
+  background-color: #b9e249;
   height: 60px;
 }
 
@@ -2834,7 +2834,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-calltoaction-area .overlay-bg {
-  background-color: rgba(249, 215, 0, 0.9);
+  background-color: rgba(185, 226, 73, 0.8);
 }
 
 .home-calltoaction-area p {
