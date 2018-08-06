@@ -4107,3 +4107,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- end footer Area -------------*/
+/*-------------FAQ AREA-------------*/
+.faq-lines{
+  border:solid 3px #013552;
+  margin-top: 2%;
+  margin-bottom: :2%;
+}
+
+.btn-space{
+  margin-left: 2%;
+}
+
+.faq-margin{
+  margin-top: ;
+  margin-bottom: ;
+}
+.faq-title{
+  background-color: #8cb24f;
+  text-align: center;
+  margin-bottom: 5% !important;
+  padding: 3%;
+  display: inline-block;
+  margin:auto;
+}
+/*-------------END FAQ AREA-------------*/
+/*-------------CONTACT AREA-------------*/
+.contact-area{
+  background-image: url(../img/contacto.jpg);
+  background-position: center top;
+  background-size: 100%;
+  background-attachment: fixed;
+  max-width: 100%;
+  background-repeat: no-repeat;
+}
+
+/*-------------END CONTACT AREA-------------*/
