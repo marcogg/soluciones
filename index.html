@@ -33,6 +33,26 @@
 			<link rel="stylesheet" href="css/jquery-ui.css">			
 			<link rel="stylesheet" href="css/main.css">
 			<link rel="stylesheet" href="css/estilos.css">
+
+			<!--SCRIPTS AJAX--->
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("form").submit(function(event){
+						event.preventDefault();
+						var name=$("#mail-name").val();
+						var email=$("#mail-email").val();
+						var phone=$("#mail-phone").val();
+						var submit=$("#mail-submit").val();
+						$(".form-message").load("form.php", {
+							name:name,
+							email:email,
+							phone:phone,
+							submit:submit
+						})
+					})
+				});
+
+			</script>
 		</head>
 		<body>	
 			  <header id="header">
