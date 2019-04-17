@@ -17,7 +17,7 @@ else{
 echo "<span class='form-success'>Envío correcto</span>";
 }
 /* Send the message using mail() function */
-  if(mail($name, $email, $phone ) && mail("marcogarcia.gon@gmail.com", $name, $email, $phone ))
+  if(mail($name, $email, $phone ) && mail("contacto@solucionesenefectivo.com", $name, $email, $phone ))
     {
     $successMessage = "Message sent successfully.......";
     }
